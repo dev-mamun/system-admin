@@ -14,15 +14,15 @@
     <main class="pt-5 pt-xl-7">
         <div class="container">
         <ul class="nav nav-tabs justify-content-center nav-add-funds ms-md-4 mt-3 mt-md-0">
-                <ul>
-                    <li><a href="/pay-ins">Pay - ins</a></li>
-                    <li><a href="/pay-outs">Pay - outs</a></li>
-                    <li><a href="/members">members</a></li>
-                    <li><a href="/spins">Spins</a></li>
-                    <li><a href="/bonus-items">Bonus</a></li>
-                    <li><a href="/raffle">Raffle</a></li>
-                    <li><a href="/settings">Setings</a></li>
-                </ul>
+            <ul class="dashboard-icon-container">
+                <li><a href="/pay-ins"><img src="/icon - pullout.png"><span>PAY-INS</span></a></li>
+                <li><a href="/pay-outs"><img src="/icon - withdraw.png"><span>PAY-OUTS</span></a></li>
+                <li><a href="/members"><img src="/icon - member.png"><span>MEMBERS</span></a></li>
+                <li><a href="/spins"><img src="/icon - spin wheel.png"><span>SPINS</span></a></li>
+                <li><a href="/bonus-items"><img src="/icon - bonusblue.png"><span>BONUS ITEMS</span></a></li>
+                <li><a href="/raffle"><img src="/icon - raffle ticket.png"><span>RAFFLE TICKETS</span></a></li>
+                <li><a href="/settings"><img src="/"><span>SETTINGS</span></a></li>
+            </ul>
             <div class="row gy-4 gx-xl-5 row-cols-1 row-cols-md-2 row-cols-xl-4"style="margin-top:200px;">
                 <div class="col"><a class="border-white card card-home px-3 mb-4 mb-xl-5">
                         <div class="card-header px-0 py-3">

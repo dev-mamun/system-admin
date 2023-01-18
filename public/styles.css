@@ -355,3 +355,40 @@ body[data-body-bg="dark"] {
   letter-spacing: 1.88px;
 }
 
+.dashboard-icon-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.dashboard-icon-container li a {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 9px;
+  background: rgb(73,8,119);
+  background: linear-gradient(0deg, rgba(73,8,119,1) 0%, rgba(187,18,242,1) 30%, rgba(149,18,242,1) 50%, rgba(187,18,242,1) 70%, rgba(73,8,119,1) 100%);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border: #490779 solid 2px;
+}
+
+.dashboard-icon-container li a img {
+  max-height: 30px;
+  max-width: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.dashboard-icon-container li a span {
+  margin-top: 5px;
+}

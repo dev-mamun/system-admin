@@ -43,7 +43,7 @@ class DashboardController extends Controller
 
     public function membersPage() {
         $count = User::count();
-        $query = DB::select(DB::raw('select users.id as user_id,count(funds.created_at) as count, funds.created_at as first_fund_date, users.username, user2.username as referred_by from users left join funds on funds.user_id = users.id left join users as user2 on user2.id = user2.referred_by group by users.id, funds.created_at, users.username, user2.username'));
+        $query = DB::select(DB::raw('select users.id as user_id,count(funds.created_at) as count, funds.created_at as first_fund_date, users.username, user2.username as referred_by from users left join funds on funds.user_id = users.id left join users as user2 on user2.id = users.referred_by group by users.id, funds.created_at, users.username, user2.username'));
         return view('members', ['count' => $count, 'query' => $query]);
     }
 
