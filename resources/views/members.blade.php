@@ -56,7 +56,11 @@
                                     <td>{{ $q->first_fund_date }}</td>
                                     <td>{{ $q->username }}</td>
                                     <td>{{ $q->referred_by }}</td>
-                                    <td class="text-nowrap"><a class="btn btn-success btn-sm text-nowrap me-2" role="button">Login</a><a class="btn btn-danger btn-sm text-nowrap" role="button">Reset Password</a></td>
+                                    <td class="text-nowrap">
+                                        <a class="btn btn-success btn-sm text-nowrap me-2" role="button">Login</a>
+                                        <a class="btn btn-warning btn-sm text-nowrap me-2" role="button">Reset Password</a>
+                                        <a class="btn btn-danger btn-sm text-nowrap" role="button">Set Spin Result</a>
+                                    </td>
                                 </tr>
                                 @endforeach
                             </tbody>

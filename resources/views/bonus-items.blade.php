@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Shira2 UI - admin 1.0</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/utilities.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="{{ url('utilities.css') }}">
+    <link rel="stylesheet" href="{{ url('styles.css') }}">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
                 <div class="order-last order-md-first mt-4 mt-md-0">
                     <div class="card border-white card-home card-nav px-3">
                         <div class="card-header px-0 py-3">
-                            <h5 class="fw-bold mb-0"><img class="me-2" src="{{ url('Icon_ImageIcon_Gift_Blue.png') }}">Bonus Items</h5>
+                            <h5 class="fw-bold mb-0"><img class="me-2" src="{{ url('icon - bonusblue.png') }}">Bonus Items</h5>
                         </div>
                         <div class="card-body px-0 py-2">
                             <p class="card-text mb-0" style="font-size: 14px;">Total Items</p>
